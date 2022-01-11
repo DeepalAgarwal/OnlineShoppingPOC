@@ -11,4 +11,7 @@
   "profile": {
     "name": "deepaliagarwal"
   }
+  "products":[
+    {"id": 1, "CategoryName":"Shoes"}
+  ]
 }
