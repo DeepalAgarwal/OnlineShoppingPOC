@@ -9,9 +9,6 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "deepaliagarwal"
+    "name": "typicode"
   }
-  "products":[
-    {"id": 1, "CategoryName":"Shoes"}
-  ]
 }
