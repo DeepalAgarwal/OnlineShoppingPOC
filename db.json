@@ -1,12 +1,233 @@
 {
-  "products": [
-    { "id": 1, "categoryName": "Clothing" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "productsCategory": [
+    {
+      "id": 1,
+      "categoryName": "Clothing",
+      "Products": [
+        {
+          "productId": "001",
+          "brand":"Harpa",
+          "name": "White Square Neck Top",
+          "price": 643,
+          "description": "White solid woven regular top, has a square neck, long sleeves, and zip closure",
+          "image": ""
+        },
+        {
+          "productId": "002",
+          "brand":"DressBerry",
+          "name": "Women Burgundy Embroidered Detail Top",
+          "price": 799,
+          "description": "Burgundy solid woven regular top with embroidered detail, has a keyhole neck, button closure and three-quarter sleeves",
+          "image": ""
+        }
+        ,
+        {
+          "productId": "003",
+          "brand":"La Zoire",
+          "name": "Red & White Striped A-Line Top",
+          "price": 879,
+          "description": "Red and white striped woven A-line top with schiffli embroidered detail, has a round neck, three-quarter sleeves, button closure",
+          "image": ""
+        }
+        ,
+        {
+          "productId": "004",
+          "brand":"Athena",
+          "name": "Chic Fuchsia Pink Power Shoulders Top",
+          "price": 623,
+          "description": "azz up your collection of casual ensembles with this stylish top. Flaunting power shoulders and a textured finish, it will lend you a structured and sharp look. ",
+          "image": ""
+        },
+        {
+          "productId": "005",
+          "brand":"Athena",
+          "name": "Off White & Navy Blue Polka Dots Print Extended Sleeves Wrap Top",
+          "price": 1379,
+          "description": "Off white and navy blue regular wrap top, Polka dot print,V-neck, short, extended sleeves, Woven",
+          "image": ""
+        },
+        {
+          "productId": "006",
+          "brand":"Berrylush",
+          "name": "Yellow Wrap Maxi Dress",
+          "price": 999,
+          "description": "Yellow solid woven maxi dress, has shoulder straps, sleeveless, concealed zip closure, and flared hem",
+          "image": ""
+        },
+        {
+          "productId": "007",
+          "brand":"SASSAFRAS",
+          "name": "Black Semi Sheer Off-Shoulder Maxi Tiered Dress",
+          "price": 919,
+          "description": "Black solid semi sheer woven maxi tiered dress, has an off-shoulder neck, long sleeves, concealed zip closure on the side, an attached lining, and flared hem Comes with a  belt",
+          "image": ""
+        },
+        {
+          "productId": "008",
+          "brand":"RARE",
+          "name": "Black & White Checked Culotte Jumpsuit",
+          "price": 839,
+          "description": "Black and white checked culotte jumpsuit with Ruffles, has a square neck, short sleeves, two pockets",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "categoryName": "Accessories",
+      "Products": [
+        {
+          "productId": "011",
+          "brand":"yelloe",
+          "name": "Blue Solid Sling Bag",
+          "price": 796,
+          "description": "Blue solid sling bag, has a button closure 1 main compartment, 2 inner pockets Tablet sleeve: No",
+          "image": ""
+        },
+        {
+          "productId": "012",
+          "brand":"Baggit",
+          "name": "Women Purple & Beige Colourblocked Printed Sling Bag",
+          "price": 870,
+          "description": "Purple striped solid sling bag 1 main compartment, has a zip closure, 1 external pocket, 1 inner pockets Tablet sleeve: no",
+          "image": ""
+        }
+        ,
+        {
+          "productId": "013",
+          "brand":"Lavie",
+          "name": "Pink Structured Shoulder Bag",
+          "price": 2090,
+          "description": "Pink solid shoulder bag 1 main compartment, has a zip closure, 1 external pocket, 3 inner pockets",
+          "image": ""
+        }
+        ,
+        {
+          "productId": "014",
+          "brand":"Hidesign",
+          "name": "Brown Crocodile Textured Leather Shoulder Bag",
+          "price": 9195,
+          "description": "Brown textured shoulder bag, has a zip closure 2 main compartments, 2 external and 2 inner pockets Tablet sleeve: No",
+          "image": ""
+        },
+        {
+          "productId": "015",
+          "brand":"Lavie",
+          "name": "Mint Green Solid Handheld Bag",
+          "price": 2249,
+          "description": "Mint Green solid handheld bag, has a zip closure 1 main compartment, 1 external and 4 inner pockets Tablet sleeve: No",
+          "image": ""
+        },
+        {
+          "productId": "016",
+          "brand":"JAGUAR",
+          "name": "Men Classic Eau De",
+          "price": 1485,
+          "description": "You can return the product within 15 days if the delivered product is damaged, expired, different from ordered.",
+          "image": ""
+        },
+        {
+          "productId": "017",
+          "brand":"VILLAIN",
+          "name": "Men Classic Eau De Parfum",
+          "price": 515,
+          "description": "You can return the product within 15 days if the delivered product is damaged, expired, different from ordered.",
+          "image": ""
+        },
+        {
+          "productId": "018",
+          "brand":"SKINN",
+          "name": "by Titan Men Amalfi Bleu EDT- 90 ml",
+          "price": 2245,
+          "description": "100% Original Products You can return the product within 15 days if the delivered product is damaged, expired, different from ordered.",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Footwear",
+      "Products": [
+        {
+          "productId": "001",
+          "brand":"Harpa",
+          "name": "White Square Neck Top",
+          "price": 643,
+          "description": "White solid woven regular top, has a square neck, long sleeves, and zip closure",
+          "image": ""
+        },
+        {
+          "productId": "002",
+          "brand":"DressBerry",
+          "name": "Women Burgundy Embroidered Detail Top",
+          "price": 799,
+          "description": "Burgundy solid woven regular top with embroidered detail, has a keyhole neck, button closure and three-quarter sleeves",
+          "image": ""
+        }
+        ,
+        {
+          "productId": "003",
+          "brand":"La Zoire",
+          "name": "Red & White Striped A-Line Top",
+          "price": 879,
+          "description": "Red and white striped woven A-line top with schiffli embroidered detail, has a round neck, three-quarter sleeves, button closure",
+          "image": ""
+        }
+        ,
+        {
+          "productId": "004",
+          "brand":"Athena",
+          "name": "Chic Fuchsia Pink Power Shoulders Top",
+          "price": 623,
+          "description": "azz up your collection of casual ensembles with this stylish top. Flaunting power shoulders and a textured finish, it will lend you a structured and sharp look. ",
+          "image": ""
+        },
+        {
+          "productId": "005",
+          "brand":"Athena",
+          "name": "Off White & Navy Blue Polka Dots Print Extended Sleeves Wrap Top",
+          "price": 1379,
+          "description": "Off white and navy blue regular wrap top, Polka dot print,V-neck, short, extended sleeves, Woven",
+          "image": ""
+        },
+        {
+          "productId": "006",
+          "brand":"Berrylush",
+          "name": "Yellow Wrap Maxi Dress",
+          "price": 999,
+          "description": "Yellow solid woven maxi dress, has shoulder straps, sleeveless, concealed zip closure, and flared hem",
+          "image": ""
+        },
+        {
+          "productId": "007",
+          "brand":"SASSAFRAS",
+          "name": "Black Semi Sheer Off-Shoulder Maxi Tiered Dress",
+          "price": 919,
+          "description": "Black solid semi sheer woven maxi tiered dress, has an off-shoulder neck, long sleeves, concealed zip closure on the side, an attached lining, and flared hem Comes with a  belt",
+          "image": ""
+        },
+        {
+          "productId": "008",
+          "brand":"RARE",
+          "name": "Black & White Checked Culotte Jumpsuit",
+          "price": 839,
+          "description": "Black and white checked culotte jumpsuit with Ruffles, has a square neck, short sleeves, two pockets",
+          "image": ""
+        }
+      ]
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "profile": {
     "name": "typicode"
